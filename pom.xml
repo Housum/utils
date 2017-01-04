@@ -16,6 +16,10 @@
         <!-- logger -->
         <log4j.version>2.5</log4j.version>
         <slf4j.log4j12.version>1.7.21</slf4j.log4j12.version>
+        <!--fastjson-->
+        <fastjson.version>1.2.12</fastjson.version>
+        <!-- test -->
+        <junit.version>4.11</junit.version>
     </properties>
 
     <dependencies>
@@ -65,6 +69,27 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j.log4j12.version}</version>
         </dependency>
+        <!--fastjson-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <!--poi-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.15</version>
+        </dependency>
+        <!-- test -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
 
     </dependencies>
 
